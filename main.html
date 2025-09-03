@@ -1,16 +1,98 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            width: 1100px;
+            background: #ffffff;
+            padding: 20px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        td {
+            border: 1px solid #ccc;
+            padding: 15px;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        td img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        td.text {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #333;
+            text-align: justify;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <h1>Architecture: Blending Art and Engineering</h1>
 
+        <div class="imageContainer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Taj_Mahal_in_March_2004.jpg" alt="Main Architecture Image">
+        </div>
+
+        <table>
+            <tr>
+                <td width="200"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg" alt="Colosseum"></td>
+                <td class="text" width="600">
+                    Architecture is more than just building structures; it is a reflection of culture, history, and innovation. From ancient monuments to modern skyscrapers, architecture tells the story of human civilization.
+                </td>
+                <td width="200"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Great_Wall_of_China_June_2007.jpg" alt="Great Wall"></td>
+            </tr>
+            <tr>
+                <td width="200"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Eiffel_Tower_in_Paris_2011.jpg" alt="Eiffel Tower"></td>
+                <td class="text" width="600">
+                    The design and structure of buildings combine functionality with aesthetics. Iconic examples like the Eiffel Tower, the Taj Mahal, and modern glass towers show the evolution of architectural styles.
+                </td>
+                <td width="200"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Sydney_Opera_House_Sails.jpg" alt="Sydney Opera House"></td>
+            </tr>
+        </table>
+    </div>
 </body>
-
 </html>
